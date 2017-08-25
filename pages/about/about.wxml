@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container-fluid">
+<image class="bg" src="../../images/bg2.jpg" mode="widthFix"></image>
+
+<view class="about">
+
+<text> Welcome to the next chapter in data storage. Welcome to Space Saver by Pied Piper.</text>
+  
+
+<text>Our revolutionary compression, mixed with industry standard encryption, makes Space Saver the perfect tool to lower server costs as well as keep client records safe. In addition to the limitless enterprise applications, Space Saver can be used on any device, so even your personal memory-clogged phones, laptops or tablets will be running like the day you got them. </text>
+
+<view class="contact">
+  <text>www.cmcm.us
+  15068342177
+  cmcmus@icloud.com</text>
+</view>
+
+</view>
+
+
+<view class="blank"></view>
+
+</view>
+
+<import src="../../tabbar/tabbar.wxml" />
+<template is="tabbar" data="{{ tabbar }}" />

@@ -1,0 +1,37 @@
+/* pages/about/about.wxss */
+.bg{
+  background: #f35431;
+  width: 100vw;
+  height: 30vh;
+}
+
+.about{
+
+  paddding-top: 20rpx;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+.about text{
+  color: #f35431;
+  font-size: 30rpx;
+  padding-bottom: 20rpx;
+   line-height:30rpx;
+}
+
+.contact {
+  width: 80vw;
+  border-top: 1rpx solid #f35431;
+  padding-top: 20rpx;
+}
+
+.contact text{
+  color: grey;
+  font-size: 28rpx;
+  white-space:nowrap;
+  line-height:34rpx;
+}

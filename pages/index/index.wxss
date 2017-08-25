@@ -1,0 +1,69 @@
+/**index.wxss**/
+
+page{
+  background: #fff;
+}
+.bg{
+  background: #f35431;
+  width: 100vw;
+}
+
+.contactus {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 40rpx 0 30rpx 0;
+}
+.contactus button {
+  width: 300rpx;
+  display:flex;
+  display: -webkit-flex; 
+  align-items:center;
+  font-size: 28rpx;
+}
+.contactus button image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 50rpx;
+}
+.tel{
+  background-color: #f35431;
+}
+
+
+.menu{
+  border-top:solid lightgrey;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+.menu-item{
+  height: 140rpx;
+  flex: 0 0 35%;
+  margin: 20rpx;
+  padding: 20rpx 20rpx 0 20rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  line-height: 50rpx;
+}
+.menu-item image{
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.menu-item .text{
+  color: #f35431;
+  font-size: 24rpx;
+}
+
+.menu-item .eng{
+  color: #f35431;
+  font-size: 22rpx;
+  white-space:nowrap;
+  line-height:34rpx;
+}
+
+.blank {
+  height: 80px;  
+}

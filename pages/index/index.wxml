@@ -1,0 +1,38 @@
+<!--index.wxml-->
+<view class="container-fluid">
+<image class="bg" src="../../images/bg.jpg" mode="widthFix"></image>
+
+<view class="contactus">
+  <button bindtap="wechat"><image src="../../images/contact.png"></image>微信咨询</button>
+  <button class="tel" bindtap="tel"><image src="../../images/tel_active.png"></image>电话咨询</button>
+</view>
+
+
+<view class="menu">
+  <view class="menu-item ">
+    <image src="../../images/web.png"></image>
+    <view class="text">产品体验升级</view>
+    <view class="text">PRODUCT DESIGN</view>
+  </view>
+  <view class="menu-item ">
+    <image src="../../images/ui.png"></image>
+    <view class="text">用户界面设计</view>
+    <view class="eng">UI DESIGN</view>
+  </view>
+  <view  class="menu-item ">
+    <image src="../../images/xcx.png"></image>
+    <view class="text">微信小程序开发</view>
+    <view class="eng">MINIPROGRAM DEVELOPMENT</view>
+  </view>
+  <view  class="menu-item ">
+    <image src="../../images/app.png"></image>
+    <view class="text">应用开发</view>
+    <view class="eng">APPLICATION DEVELOPMENT</view>
+  </view>
+
+</view>
+<view class="blank"></view>
+</view>
+
+<import src="../../tabbar/tabbar.wxml" />
+<template is="tabbar" data="{{ tabbar }}" />
